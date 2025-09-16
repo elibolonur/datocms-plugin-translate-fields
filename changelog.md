@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and follows [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.15.0] - 2025-09-16
+### Added
+- Retry button for failed API calls next to the error message
+### Fixed
+- deprecated `max_tokens` parameter in OpenAI API is replaced with `max_completion_tokens` and changed label
+
 ## [1.14.1] - 2025-09-01
 ### Fixed
 - Cases where structured fields have a different structure
